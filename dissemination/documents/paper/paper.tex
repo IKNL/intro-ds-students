@@ -1,0 +1,109 @@
+\documentclass{scrartcl}
+
+\usepackage[pdftex]{graphicx}                 % Enable the use of .pdf graphics.
+	\graphicspath{ ../../figures/ }         % Path where the figure files are located. Remember to add an extra set of curly braces (Cookiecutter limitation)
+	\DeclareGraphicsExtensions{.eps,.pdf}     % Define files extension (.pdf, .eps).
+%\usepackage{subfig}
+\usepackage{subcaption}
+
+
+\usepackage[T1]{fontenc}                % Enables T1 font encoding
+\usepackage{lmodern}                    % Enables the use of modern LaTeX fonts
+\usepackage{pifont}                     % For checkmark (and other characters)
+\usepackage{authblk} 					% For author affiliations.
+\usepackage{paralist}                   % For inline lists
+
+\usepackage{booktabs}                   % For tables (e.g., lifelines requires \toprule)
+\usepackage{multirow}                   % For merging cells in tables
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor=blue
+}
+
+\usepackage[numbers, sort&compress]{natbib}      % For ordering in-line citations.
+
+\usepackage{lineno}						% For line numbers (lefthand side default).
+\linenumbers
+
+% For nested numerated lists.
+\renewcommand{\labelenumii}{\theenumii}
+\renewcommand{\theenumii}{\theenumi.\arabic{enumii}.}
+
+% Define macros.
+\newcommand{\eg}{e.g.,}
+\newcommand{\ie}{i.e.,}
+\newcommand{\checkmark}{\ding{51}}
+
+\providecommand{\keywords}[1]{\textbf{\textit{Keywords---}} #1}
+
+\linespread{1.25}
+
+
+\begin{document}
+
+\title{My Awesome Paper}
+\author[a]{Violet Baudelaire\thanks{Corresponding author: Violet Baudelaire; Zernikestraat~29, 5612~HZ Eindhoven, NL; \\E-mail: \href{mailto:XXX@iknl.nl}{XXX@iknl.nl}.}}
+\author[b]{Lemony Snicket}
+\affil[a]{Netherlands Comprehensive Cancer Organization (IKNL), Eindhoven, NL}
+\affil[b]{Collaborator B Affiliation}
+\maketitle
+
+\abstract{Abstract goes here}
+%\abstract{\noindent\textbf{Purpose:} \\\textbf{Materials \& Methods:} \\\textbf{Results:} \\\textbf{Conclusion:} \\}
+
+\begin{keywords}
+Keywords go here
+\end{keywords}
+
+\newpage
+\section{Introduction}\label{sec:introduction}
+The Cox Proportional Hazards (CPH) model~\cite{cox1972regression} is the most used approach for survival analysis...
+
+In this paper, we...
+
+The manuscript is organized as follows. Section~\ref{sec:materials_methods} gives a general description of the methods used for this study, as well as of how the analyses were performed. Section~\ref{sec:results} presents the obtained results, which are further discussed in detail in Sec.~\ref{sec:discussion}. Section~\ref{sec:outlook_conclusion} closes the paper with insights on possible future work together with our overall conclusions.
+
+
+\newpage
+\section{Materials \& Methods}\label{sec:materials_methods}
+% To generate LaTeX tables, use https://www.tablesgenerator.com/
+
+\subsection{Data}
+
+\subsection{Model}
+
+
+\newpage
+\section{Results}\label{sec:results}
+% To generate LaTeX tables, use https://www.tablesgenerator.com/
+
+%\begin{figure}[!b]
+%    \centering
+%    \includegraphics[width=1\textwidth]{iknl.pdf}
+%    \caption{IKNL rules.}
+%    \label{fig:iknl}
+%\end{figure}
+
+
+\newpage
+\section{Discussion}\label{sec:discussion}
+
+\section{Outlook \& Conclusion}\label{sec:outlook_conclusion}
+
+\section{Acknowledgements}
+We would like to thank the registration team of the Netherlands Comprehensive Cancer Organization (IKNL) for the collection of the data for the Netherlands Cancer Registry.
+
+\newpage
+\bibliographystyle{unsrtnat}
+%\bibliographystyle{plainnat}
+%\bibliographystyle{ieeetr}
+%\bibliographystyle{ieeetrans}
+%\bibliographystyle{ieeetranS}
+\bibliography{references}
+
+\end{document} 
