@@ -12,10 +12,13 @@ Good overview of survival analysis with especial focus in ML/AI techniques.
 
 If you are having problems accessing any of these references, please contact your supervisor.
 
-#### Additional resources
+## Additional resources
 * [International Classification of Diseases for Oncology (ICD-O)](http://www.iacr.com.fr/index.php?option=com_content&view=category&layout=blog&id=100&Itemid=577)
 
 * [Using environments in Anaconda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
+* [`lifelines`](https://github.com/CamDavidsonPilon/lifelines) <br>
+  Fantastic Python package for survival analysis. Its documentation has a great hands-on introduction and many examples with code.
 
 
 Moreover, check with your supervisor what additional references (s)he recommends to get you started in your project (and its corresponding literature review).
