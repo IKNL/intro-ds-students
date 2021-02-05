@@ -67,7 +67,7 @@ If you aren't familiarized with Git, I recommend you follow this [cute online tu
 7. #### Get started!
 Now, clone this repository by opening a Git console and typing
 
-  `git clone XXX`
+  `git clone git@github.com:IKNL/intro-ds-students.git`
 
 Go to the `notebooks` directory and get started. Good luck 🍀!
 
