@@ -6,7 +6,7 @@
 The purpose of this repository is to get you familiarized with the tools that you will be using during your time at IKNL.
 
 ## Getting your setup up and running
-This should help you get your setup up and running. Please note that this based on my experience and a recommendation only. Adapt it if necessary 😉.
+This should help you get your setup up and running.
 
 1. #### Install Anaconda <br>
   Anaconda is a great all-in-one solution for Data Science. I recommend you install it from [here](https://www.anaconda.com/products/individual)
