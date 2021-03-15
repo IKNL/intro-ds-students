@@ -54,6 +54,7 @@
 # Make sure you save all your plots in the `results` directory
 #
 # **Tip**: take a look at [`seaborn`](https://seaborn.pydata.org/)
+# **Tip**: get some inspiration from the [Python Graph Gallery](https://www.python-graph-gallery.com/)
 
 # %%
 
